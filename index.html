@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <title>Awakening - a path finding game by Lisa Irwin and Preston Balser</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+
+<div id='game'>
+    <canvas id="bgCanvas" width="640" height="640">
+            This text is displayed if your browser does not support HTML5 Canvas.
+    </canvas>
+    <canvas id="worldCanvas" width="640" height="640">
+            This text is displayed if your browser does not support HTML5 Canvas.
+    </canvas>    
+    <div id='introduction'>
+    <img  src='images/introduction.png'>
+    <a class='level' id='a1' href='#' title='Play Game'>Play Game</a>
+    </div>
+    <a id='titleScreen' href='#' title='Click to play!'><img src='images/titleScreen.png'></a>
+    
+    <!-- input id='newWorld' type='button' value='New World' -->
+</div>
+<div id="messages">
+    <p id='monsters'>Monsters Killed: <span id='monsterKilled'>0</span></p>
+    <p id='treasure'>Treasures Found: <span id='treasureFound'>0</span></p>
+    <p><span id='gameLog'><strong>Remember...kill all the monsters in every room to win!</strong></span></p>     
+</div>
+
+<script src="js/soundmanager2.js"></script>
+<script src="js/utils/sprite.js"></script>
+<script src="js/utils/imageLoader.js"></script>
+<script src="js/utils/walkStates.js"></script>
+<script src="js/utils/utils.js"></script>
+<script src="js/utils/keycode.js" ></script>
+
+<!-- script src="js/utils/background.js" ></script -->
+<script src="js/room.js" ></script>
+
+<!-- credit to:  http://buildnewgames.com/astar/  by Christer Kaitila 
+// for A STAR path finding code -->
+<script src="js/nav/pathfinding.js" ></script>
+<script src="js/game.js" ></script>
+
+
+</body>
+</html>

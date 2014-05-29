@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32">
+  <image source="../../../../Downloads/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+  <tile id="6">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="walkable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="73" name="qubodup-bush_berries_0" tilewidth="32" tileheight="32">
+  <image source="../../../../Downloads/tileset/qubodup-bush_berries_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="tree2-final" tilewidth="32" tileheight="32">
+  <image source="../../../../Downloads/tileset/tree2-final.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlEsPgjAQhEuiCEdeJ8WoNzRekXCk//8/uU124ziWx1GSL4UCw+x0i3fOeWISeuEkHIRMOOrcFl6kZSPrTSugHt/zqlcJ9Yo/8xPTw/kt/ub07LwT7lAv+kvoHcTmCqGE8Src4Br9JVSHgXqZks+A/mIZ96RXK80CmB/3FuvthVTHHZyn6i1XvQKyW/IXGGi091Lwl1PWnFun97hXsI4ScswIXsdKifVy0LpAvQ3kbLC+1cB5WN0lPBPybJWz5sD6tqa4X63W0X330IOeG0DbvhO+8SRfBnub2wu8T9iX19zQW+F+ey5WE64jgt4a9bf1v8frOrrP/qpVa+2fx/z78QbKuDwJ
+  </data>
+ </layer>
+ <layer name="Foreground" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzjkOwCAAA0HezU3CkfyarSmhoPFK01o2Riml7mTh4BEQkZBRNvYevKho6Bj48J/fVUsTcJQIGQ==
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzMUNwwAQAEHXF2ZmdJip+0wN90okrzTfTZKsrN8tR54CRUqUqVAN/GrUadCkRZsO3cCvR58BQ0aMmTAN/GbMWbBkxZqUTeC3ZceeA0dOnLkEfldu3Hnw5MWbT+CX9d99AaP/Ekk=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="20" height="20" visible="0">
+  <object name="tree" x="312" y="455" width="152" height="64"/>
+ </objectgroup>
+</map>
