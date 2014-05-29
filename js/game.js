@@ -286,11 +286,6 @@ function Game() {
         window.addEventListener("keyup", onKeyUp, false);
         
         utils.disableImageSmoothing(context);
-         
-        // load image file
-        // imageLoader.queueImage("images/sprite.png");
-        // imageLoader.queueImage("images/sprite1.png");
-        // imageLoader.queueImage("images/sprite2.png");
         
         imageLoader.queueImage("images/grass-tiles-2-small.png");
 
@@ -303,9 +298,7 @@ function Game() {
         
         var introduction = document.getElementById('a1');
         introduction.addEventListener("click", playGame, false);
-           
-        console.log ("num monsters: " + numMonsters);
-  
+             
     };
 
 } 
